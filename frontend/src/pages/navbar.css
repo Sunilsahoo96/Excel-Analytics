@@ -1,0 +1,42 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .navbar-title {
+    font-weight: bold;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .navbar-buttons {
+      flex-direction: column;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .navbar-buttons button {
+      width: 100%;
+    }
+  
+    .navbar-title {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  

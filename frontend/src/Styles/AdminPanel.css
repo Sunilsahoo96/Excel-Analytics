@@ -1,0 +1,55 @@
+.adminPanel{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 20px;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: #113769; */
+    background-color: #329f40;
+    min-height: 100vh;
+    color: white;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.items Link{
+    text-decoration: none;
+}
+
+.mainContent{
+    height: 100vh;
+    overflow: scroll;
+}
+
+.items h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .items .MuiListItemButton-root {
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  transition: all 0.2s ease;
+}
+
+.sidebar .items .MuiListItemButton-root:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateX(4px);
+}
+
+.second .MuiListItemButton-root{
+    color: white;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  transition: all 0.2s ease;
+}
+
+.second .MuiListItemButton-root:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateX(4px);
+}

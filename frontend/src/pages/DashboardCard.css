@@ -1,0 +1,31 @@
+.cards-wrapper {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .card {
+    height: 220px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    color: #000;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #1976d2;
+  }
+  
